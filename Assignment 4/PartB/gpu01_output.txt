@@ -1,0 +1,69 @@
+==========================================
+GPU Vector Addition with Unified Memory - Q3 Results
+==========================================
+
+SCENARIO 1: 1 block, 1 thread
+K: 1 million, Grid size: 1, Block size: 1
+Unified Memory Allocation Time : 200.588 millisec
+Execution Time                 : 41.9125 millisec
+Total Time                     : 242.5 millisec
+K: 5 million, Grid size: 1, Block size: 1
+Unified Memory Allocation Time : 156.929 millisec
+Execution Time                 : 335.494 millisec
+Total Time                     : 492.423 millisec
+K: 10 million, Grid size: 1, Block size: 1
+Unified Memory Allocation Time : 152.256 millisec
+Execution Time                 : 671.813 millisec
+Total Time                     : 824.068 millisec
+K: 50 million, Grid size: 1, Block size: 1
+Unified Memory Allocation Time : 152.707 millisec
+Execution Time                 : 3358.59 millisec
+Total Time                     : 3511.3 millisec
+K: 100 million, Grid size: 1, Block size: 1
+Unified Memory Allocation Time : 150.228 millisec
+Execution Time                 : 6717 millisec
+Total Time                     : 6867.22 millisec
+
+SCENARIO 2: 1 block, 256 threads
+K: 1 million, Grid size: 1, Block size: 256
+Unified Memory Allocation Time : 151.201 millisec
+Execution Time                 : 0.601333 millisec
+Total Time                     : 151.803 millisec
+K: 5 million, Grid size: 1, Block size: 256
+Unified Memory Allocation Time : 160.439 millisec
+Execution Time                 : 7.13464 millisec
+Total Time                     : 167.574 millisec
+K: 10 million, Grid size: 1, Block size: 256
+Unified Memory Allocation Time : 152.076 millisec
+Execution Time                 : 14.2795 millisec
+Total Time                     : 166.355 millisec
+K: 50 million, Grid size: 1, Block size: 256
+Unified Memory Allocation Time : 152.42 millisec
+Execution Time                 : 71.2614 millisec
+Total Time                     : 223.682 millisec
+K: 100 million, Grid size: 1, Block size: 256
+Unified Memory Allocation Time : 151.008 millisec
+Execution Time                 : 142.447 millisec
+Total Time                     : 293.455 millisec
+
+SCENARIO 3: Multiple blocks, 256 threads/block
+K: 1 million, Grid size: 3907, Block size: 256
+Unified Memory Allocation Time : 154.003 millisec
+Execution Time                 : 0.022481 millisec
+Total Time                     : 154.026 millisec
+K: 5 million, Grid size: 19532, Block size: 256
+Unified Memory Allocation Time : 156.544 millisec
+Execution Time                 : 0.231748 millisec
+Total Time                     : 156.776 millisec
+K: 10 million, Grid size: 39063, Block size: 256
+Unified Memory Allocation Time : 152.881 millisec
+Execution Time                 : 0.471486 millisec
+Total Time                     : 153.353 millisec
+K: 50 million, Grid size: 195313, Block size: 256
+Unified Memory Allocation Time : 152.503 millisec
+Execution Time                 : 2.4852 millisec
+Total Time                     : 154.989 millisec
+K: 100 million, Grid size: 390625, Block size: 256
+Unified Memory Allocation Time : 150.675 millisec
+Execution Time                 : 5.03264 millisec
+Total Time                     : 155.708 millisec

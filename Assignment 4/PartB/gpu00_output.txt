@@ -1,0 +1,99 @@
+==========================================
+GPU Vector Addition - Q2 Results
+==========================================
+
+SCENARIO 1: 1 block, 1 thread
+K: 1 million, Grid size: 1, Block size: 1
+CPU Memory Allocation Time : 0.017629 millisec
+GPU Memory Allocation Time : 213.974 millisec
+Mem Copy Time              : 5.84844 millisec
+Execution Time             : 41.9989 millisec
+Total Time                 : 261.839 millisec
+K: 5 million, Grid size: 1, Block size: 1
+CPU Memory Allocation Time : 0.014139 millisec
+GPU Memory Allocation Time : 153.103 millisec
+Mem Copy Time              : 17.2102 millisec
+Execution Time             : 336.628 millisec
+Total Time                 : 506.956 millisec
+K: 10 million, Grid size: 1, Block size: 1
+CPU Memory Allocation Time : 0.013977 millisec
+GPU Memory Allocation Time : 155.604 millisec
+Mem Copy Time              : 34.0331 millisec
+Execution Time             : 675.592 millisec
+Total Time                 : 865.244 millisec
+K: 50 million, Grid size: 1, Block size: 1
+CPU Memory Allocation Time : 0.014561 millisec
+GPU Memory Allocation Time : 152.303 millisec
+Mem Copy Time              : 168.462 millisec
+Execution Time             : 3397.74 millisec
+Total Time                 : 3718.52 millisec
+K: 100 million, Grid size: 1, Block size: 1
+CPU Memory Allocation Time : 0.015509 millisec
+GPU Memory Allocation Time : 152.004 millisec
+Mem Copy Time              : 332.319 millisec
+Execution Time             : 6748.13 millisec
+Total Time                 : 7232.46 millisec
+
+SCENARIO 2: 1 block, 256 threads
+K: 1 million, Grid size: 1, Block size: 256
+CPU Memory Allocation Time : 0.014124 millisec
+GPU Memory Allocation Time : 151.604 millisec
+Mem Copy Time              : 3.84277 millisec
+Execution Time             : 0.601864 millisec
+Total Time                 : 156.063 millisec
+K: 5 million, Grid size: 1, Block size: 256
+CPU Memory Allocation Time : 0.025658 millisec
+GPU Memory Allocation Time : 152.524 millisec
+Mem Copy Time              : 17.4765 millisec
+Execution Time             : 7.20368 millisec
+Total Time                 : 177.23 millisec
+K: 10 million, Grid size: 1, Block size: 256
+CPU Memory Allocation Time : 0.014623 millisec
+GPU Memory Allocation Time : 159.838 millisec
+Mem Copy Time              : 34.1501 millisec
+Execution Time             : 14.3814 millisec
+Total Time                 : 208.384 millisec
+K: 50 million, Grid size: 1, Block size: 256
+CPU Memory Allocation Time : 0.014717 millisec
+GPU Memory Allocation Time : 151.7 millisec
+Mem Copy Time              : 169.183 millisec
+Execution Time             : 72.2981 millisec
+Total Time                 : 393.196 millisec
+K: 100 million, Grid size: 1, Block size: 256
+CPU Memory Allocation Time : 0.014866 millisec
+GPU Memory Allocation Time : 151.57 millisec
+Mem Copy Time              : 334.952 millisec
+Execution Time             : 143.595 millisec
+Total Time                 : 630.132 millisec
+
+SCENARIO 3: Multiple blocks, 256 threads/block
+K: 1 million, Grid size: 3907, Block size: 256
+CPU Memory Allocation Time : 0.012992 millisec
+GPU Memory Allocation Time : 157.264 millisec
+Mem Copy Time              : 3.8174 millisec
+Execution Time             : 0.016171 millisec
+Total Time                 : 161.11 millisec
+K: 5 million, Grid size: 19532, Block size: 256
+CPU Memory Allocation Time : 0.014066 millisec
+GPU Memory Allocation Time : 154.672 millisec
+Mem Copy Time              : 17.5427 millisec
+Execution Time             : 0.24396 millisec
+Total Time                 : 172.473 millisec
+K: 10 million, Grid size: 39063, Block size: 256
+CPU Memory Allocation Time : 0.014423 millisec
+GPU Memory Allocation Time : 152.801 millisec
+Mem Copy Time              : 34.2389 millisec
+Execution Time             : 0.491171 millisec
+Total Time                 : 187.546 millisec
+K: 50 million, Grid size: 195313, Block size: 256
+CPU Memory Allocation Time : 0.014207 millisec
+GPU Memory Allocation Time : 151.748 millisec
+Mem Copy Time              : 167.786 millisec
+Execution Time             : 2.54284 millisec
+Total Time                 : 322.091 millisec
+K: 100 million, Grid size: 390625, Block size: 256
+CPU Memory Allocation Time : 0.014479 millisec
+GPU Memory Allocation Time : 151.418 millisec
+Mem Copy Time              : 335.911 millisec
+Execution Time             : 5.09137 millisec
+Total Time                 : 492.435 millisec
