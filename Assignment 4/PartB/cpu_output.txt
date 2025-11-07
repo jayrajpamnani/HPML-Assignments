@@ -1,0 +1,24 @@
+==========================================
+CPU Vector Addition - Q1 Results
+==========================================
+
+K: 1 million
+Memory Allocation Time : 0.021423 millisec
+Execution Time         : 3.16737 millisec
+Total Time             : 3.1888 millisec
+K: 5 million
+Memory Allocation Time : 0.013597 millisec
+Execution Time         : 15.8671 millisec
+Total Time             : 15.8807 millisec
+K: 10 million
+Memory Allocation Time : 0.014593 millisec
+Execution Time         : 31.829 millisec
+Total Time             : 31.8436 millisec
+K: 50 million
+Memory Allocation Time : 0.014456 millisec
+Execution Time         : 159.266 millisec
+Total Time             : 159.281 millisec
+K: 100 million
+Memory Allocation Time : 0.015996 millisec
+Execution Time         : 317.961 millisec
+Total Time             : 317.977 millisec
